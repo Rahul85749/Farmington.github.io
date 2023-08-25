@@ -1,0 +1,98 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('farm1.jpeg'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Display navigation items horizontally */
+    justify-content: center; /* Center navigation items horizontally */
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    width: 90%; /* Adjusted width for input and button */
+}
+
+button {
+    cursor: pointer;
+}
+.logo {
+    width: 100px; /* Decreased size */
+    height: auto;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+
+/* Rest of your CSS code ... */
+
+
+.toggle-form {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Display navigation items vertically on small screens */
+        align-items: center; /* Center navigation items vertically on small screens */
+    }
+    
+    .form-container {
+        width: 80%;
+    }
+    
+    input[type="text"],
+    input[type="password"],
+    button {
+        padding: 4px;
+        font-size: 14px;
+    }
+}
+
+/* Rest of your CSS code remains unchanged */

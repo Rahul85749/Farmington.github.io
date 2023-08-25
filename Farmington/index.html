@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Web App</title>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">Upload</a></li>
+            <li><a href="file:///C:/Farmington/index3.html#">Pests</a></li>
+            <li><a href="#">Login</a></li>
+            <!-- You can show "Logout" when the user is logged in -->
+        </ul>
+    </nav>
+    
+    <!-- Header with logo and form container -->
+    <header class="header">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="form-container">
+            <form id="signup-form" class="active">
+                <h2>Sign Up</h2>
+                <input type="text" placeholder="Email/Phone" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+                <p class="toggle-form">Already have an account? <span>Login</span></p>
+            </form>
+            
+            <form id="login-form">
+                <h2>Login</h2>
+                <input type="text" placeholder="Email/Phone" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <p class="toggle-form">Don't have an account? <span>Sign Up</span></p>
+            </form>
+        </div>
+    </header>
+
+    <script src="script.js"></script>
+</body>
+</html>

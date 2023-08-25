@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Image Upload and Viewer</title>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="file:///C:/Farmington/index.html">Home</a></li>
+            <li><a href="file:///C:/Farmington/index2.html#">Upload</a></li>
+            <li><a href="file:///C:/Farmington/index3.html#">Pests</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </nav>    
+    <main>
+        <section class="upload-section">
+            <h2>Upload an Image</h2>
+            <input type="file" id="image-upload" accept="image/*">
+            <button id="result-button">Show Result</button>
+        </section>
+        
+        <section class="viewer-section">
+            <h2>Image Viewer</h2>
+            <div class="image-container" id="image-container">
+                <!-- The uploaded image will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="script2.js"></script>
+</body>
+</html>

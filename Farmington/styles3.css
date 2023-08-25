@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url(farm3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex; /* Display navigation items horizontally */
+    justify-content: center; /* Center navigation items horizontally */
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px;
+}
+
+.logo {
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slide {
+    display: none;
+    width: 400px; /* Fixed width */
+    height: 300px; /* Fixed height */
+    margin: 0 auto; /* Center the slide horizontally */
+}
+
+.slide img {
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    object-fit:scale-down; /* Maintain image aspect ratio and cover the container */
+}
+
+.slide-info {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* Rest of your CSS code ... */
